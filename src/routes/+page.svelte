@@ -1,19 +1,23 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import {zoekstatus} from '$lib/search.svelte.js';
+    let {data} = $props()    
+    let person = data.person[32];
+</script>
+
 <div class="kaart-container">
     <div class="buiten-rechthoek">       
         <div class="binnen-rechthoek">
             <div class="rechthoek-foto">
-                <img class="image" src="#" alt="" width="300" height="360">
+                <img class="image" src="{ person.avatar }" alt="{ person.name }" width="300" height="360">
             </div>
                 <section class="info">
-                    <h1>Lynn</h1>    
+                    <h1>{ person.name.split(' ')[0]}</h1>    
                     <h2>Naam:</h2>
-                    <p>Lynn van den Bosch</p>
+                    <p>{ person.name }</p>
                     <h2>Stad:</h2>
-                    <p>Utrecht</p>
+                    <p>{ person.residency }</p>
                     <h2>Bio:</h2>
-                    <p>Ik kijk er naar uit om mijn kennis te verbreden en mensen blij te maken met mijn werk.</p>
+                    <p>{ person.bio }</p>
                 </section>
         </div>
     </div>
