@@ -4,7 +4,7 @@
     <div class="buiten-rechthoek">       
         <div class="binnen-rechthoek">
             <div class="rechthoek-foto">
-                <img class="image" src="" width="300" height="360">
+                <img class="image" src="#" alt="" width="300" height="360">
             </div>
                 <section class="info">
                     <h1>Lynn</h1>    
