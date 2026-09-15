@@ -1,0 +1,15 @@
+    * {
+        margin: 0;
+    }
+
+    :root {
+        --primary-color: #2D2F45;
+        --secondary-color:  #D5BEEA;
+        --white: #FDFDFD;
+        --black: #1B1B1B;
+
+        font-family: Inter, serif;
+        font-size: 16px; 
+        color: var(--primary-color);
+        background-color: var(--primary-color);
+    }
