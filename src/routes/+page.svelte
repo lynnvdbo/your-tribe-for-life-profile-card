@@ -57,6 +57,10 @@
         z-index: 10;
         
         animation: fadeOut 5s ease forwards;
+        @media(prefers-reduced-motion: reduce) {
+                animation: none;
+                opacity: 0;
+            }
     }
     .buiten-rechthoek {
         position: absolute;
