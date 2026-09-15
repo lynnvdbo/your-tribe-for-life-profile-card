@@ -45,6 +45,18 @@
         height: 728px;
         margin: 5rem auto;
     }
+
+    /* .zwart-vlak {
+        position: absolute;
+        inset: 0;
+        width: 550px;
+        height: 700px;
+        background-color: var(--black);
+        padding: 0.7rem;
+        z-index: 10;
+        
+        animation: fadeOut 5s ease forwards;
+    } */
     .buiten-rechthoek {
         position: absolute;
         inset: 0;
@@ -121,5 +133,14 @@
             }
         }
     }
+
+    /* @keyframes fadeOut {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
     } */
 </style>
