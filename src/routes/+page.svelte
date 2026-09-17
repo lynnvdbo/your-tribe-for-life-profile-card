@@ -46,10 +46,10 @@
         padding: 0.7rem;
         z-index: 10;
         
-        animation: fadeOut 5s ease forwards;
-        @media(prefers-reduced-motion: reduce) {
-                animation: none;
-                opacity: 0;
+        animation: none;
+        opacity: 0;
+        @media(prefers-reduced-motion: no-preference) {
+                animation: fadeOut 5s ease forwards;
             }
     }
     .buiten-rechthoek {
