@@ -1,5 +1,4 @@
 <script>
-    import {zoekstatus} from '$lib/search.svelte.js';
     let {data} = $props()    
     let person = data.person[32];
 </script>
