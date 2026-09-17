@@ -24,12 +24,6 @@
     <div class="zwart-vlak"></div>
 </div>
 
-<nav>
-    <a href="https://github.com/lynnvdbo">Github</a>
-    <a href="#">Portfolio</a>
-    <a href="#">Contact</a>
-</nav>
-
 <style>
     .kaart-container {
         position: relative; /*alles wat absolute is, mag zich binnen deze container positioneren*/
@@ -45,7 +39,7 @@
         background-color: var(--black);
         padding: 0.7rem;
         z-index: 10;
-        
+
         animation: none;
         opacity: 0;
         @media(prefers-reduced-motion: no-preference) {
@@ -103,24 +97,6 @@
         }   
         p {
             margin-bottom: 0.9rem;
-        }
-    }
-    nav {
-        display: flex;
-        gap: 1.5rem;
-        position: fixed;
-        top: 2rem;
-        left: 3rem;
-        z-index: 1000; 
-        font-family: boldonse, sans-serif;
-        a {
-            text-decoration: none;
-            color: var(--white);
-            text-transform: uppercase;
-            &:hover {
-                text-decoration: underline;
-                color: var(--secondary-color);
-            }
         }
     }
     @keyframes fadeOut {
