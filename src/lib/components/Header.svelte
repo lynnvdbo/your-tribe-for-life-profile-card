@@ -21,6 +21,7 @@
         z-index: 1000; 
         font-size: 1.7rem;
         font-family: AdventProVF;
+        
          @media(prefers-reduced-motion: no-preference) {
             font-variation-settings: "wght" 900, "wdth" 110;
             transition: font-variation-settings 1.5s ease-in-out;
