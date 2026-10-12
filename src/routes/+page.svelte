@@ -25,6 +25,12 @@
 </div>
 
 <style>
+    @font-face {
+        font-family: AdventProVF;
+        src: url("/fonts/AdventPro-VF.ttf") format("truetype");
+        font-weight: 100 900;
+        font-stretch: 100% 200%;
+    }
     .kaart-container {
         position: relative; /*alles wat absolute is, mag zich binnen deze container positioneren*/
         width: 572px;

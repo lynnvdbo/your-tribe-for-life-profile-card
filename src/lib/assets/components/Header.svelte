@@ -5,6 +5,13 @@
 </nav>
 
 <style>
+
+    @font-face {
+        font-family: AdventProVF;
+        src: url("/fonts/AdventPro-VF.ttf") format("truetype");
+        font-weight: 100 900;
+        font-stretch: 100% 200%;
+    }
     nav {
         display: flex;
         gap: 1.5rem;
