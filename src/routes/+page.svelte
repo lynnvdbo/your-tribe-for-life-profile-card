@@ -49,8 +49,8 @@
         animation: none;
         opacity: 0;
         @media(prefers-reduced-motion: no-preference) {
-                animation: fadeOut 5s ease forwards;
-            }
+            animation: fadeOut 5s ease forwards;
+        }
     }
     .buiten-rechthoek {
         position: absolute;
@@ -84,15 +84,32 @@
     }
     h1 {
         font-size: 11rem;
-        font-family: Sirivennela;
-        font-weight: 200;
+        font-family: AdventProVF;
+
         text-transform: uppercase;
         transform: rotate(-90deg);
         position: absolute;
-        top: 40%;
-        left: 56%;
-        color: var(--black);
+        top: 35%;
+        left: 55%;
+        color: var(--black);   
+        cursor: pointer;
+
+        @media(prefers-reduced-motion: no-preference) {
+            font-variation-settings: "wght" 900, "wdth" 100;
+            animation: fadeout 5s ease-in-out forwards;
+        }
     } 
+
+    @keyframes fadeout {
+        from {
+            font-variation-settings: "wght" 100,  "wdth" 100;
+        }
+
+        to {
+            font-variation-settings: "wght" 900,  "wdth" 150;
+        }
+    }
+
     .info {
         margin-left: 2rem;
         margin-block: 2rem;
@@ -114,4 +131,4 @@
             opacity: 0;
         }
     }
-</style>npm inat
+</style>
