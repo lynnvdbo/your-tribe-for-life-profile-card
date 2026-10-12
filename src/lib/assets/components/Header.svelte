@@ -19,13 +19,21 @@
         top: 2rem;
         left: 3rem;
         z-index: 1000; 
-        font-family: boldonse, sans-serif;
+        font-size: 1.7rem;
+        font-family: AdventProVF;
+         @media(prefers-reduced-motion: no-preference) {
+            font-variation-settings: "wght" 900, "wdth" 110;
+            transition: font-variation-settings 1.5s ease-in-out;
+        }
+
+        &:hover {
+            font-variation-settings: "wght" 900, "wdth" 160;
+        }
 
         a {
             text-decoration: none;
             color: var(--white);
             text-transform: uppercase;
-            
             &:hover {
                 text-decoration: underline;
                 color: var(--secondary-color);
